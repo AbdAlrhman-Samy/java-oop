@@ -1,10 +1,11 @@
-# ☕ Learning Java and OOP
+# Notes on: Creating classes and objects
 
-This repo is made to save my notes and sample code meant for learning Java and how Object Oriented Programming works.
-I'm starting with [this course](https://maharatech.gov.eg/enrol/index.php?id=12), hopefully I'll explore more content in the future.
+- A class is basically the blueprint of an object.
 
----
+- Classes always have a **constructor**, even if you don't write one.
 
-## 🗺️ How to navigate the repo
+- Constructors should:
+    - have the same name as the class
+    - be public
 
-Different branches will have different lessons/notes, just choose a branch from the branches thingy at the top. ⬆️
+
