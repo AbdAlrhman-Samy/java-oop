@@ -1,10 +1,20 @@
-# ☕ Learning Java and OOP
+# Notes on: Hello Java
 
-This repo is made to save my notes and sample code meant for learning Java and how Object Oriented Programming works.
-I'm starting with [this course](https://maharatech.gov.eg/enrol/index.php?id=12), hopefully I'll explore more content in the future.
+We create a **.java** file for out main class, compile it, then run the **.class** file
+
+```
+javac HelloWorld.java
+java HelloWorld
+```
 
 ---
 
-## 🗺️ How to navigate the repo
+For the main method (which, to my understanding, is like the int main() function in C++)
 
-Different branches will have different lessons/notes, just choose a branch from the branches thingy at the top. ⬆️
+```
+public static void main(String[] args)
+```
+
+- **public** : Means _main()_ method is accessible globally available.
+- **static** : The _main()_ method is static so that JVM can invoke it without instantiating the class.
+- **void** : No return value.
